@@ -4,11 +4,25 @@
 }
 
 button {
-    padding: 8px;
-    border-radius: 10%;
-    font-size: larger;
+    display:inline-block;
+    border-radius: 12px;
+    padding:0.2em 1.45em;
+    margin:0.5em;
+    border:0.15em solid #ffffff;
+    box-sizing: border-box;
+    font-weight:400;
+    font-size:18px;
+    color:#ffffff;
+    background-color:#cccccc00;
+    text-align:center;
+    transition:0.3s;
+    }
 
-}
+    button:hover{
+        color: rgb(0, 0, 0);
+        background-color:#ffffff;
+        box-shadow: 0px 6px 15px #ffffffd0;
+    }
 
 #cl {
     color: white;
@@ -27,8 +41,11 @@ textarea {
 }
 
 #usernamebox {
-    font-size: 200%;
+    font-size: 180%;
     width: 250px;
+    border-radius: 12px;
+    padding: 6px;
+    text-align:center;
 }
 
 #chatbox {
